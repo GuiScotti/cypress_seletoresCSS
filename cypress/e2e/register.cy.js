@@ -1,6 +1,6 @@
 describe("Página de Cadastro", () => {
   beforeEach(() => {
-    cy.visit("/register"); // Altere o caminho se for diferente
+    cy.visit("/register");
   });
 
   it("Deve exibir o formulário de cadastro", () => {
